@@ -102,7 +102,7 @@ export default function DataTable() {
             <PDFDownloadLink
               style={{
                 margin: "5px",
-                backgroundColor: "#FFCB3C",
+                backgroundColor: "#339C3D",
                 padding: "10px",
                 color: "white",
                 textDecoration: "none",
@@ -118,12 +118,12 @@ export default function DataTable() {
               fileName={"name"}
             >
               {" "}
-              linkn{" "}
+              Ugovor o zaposlenju
             </PDFDownloadLink>
             <PDFDownloadLink
               style={{
                 margin: "5px",
-                backgroundColor: "#FFCB3C",
+                backgroundColor: "#E16363",
                 padding: "10px",
                 color: "white",
                 textDecoration: "none",
@@ -139,7 +139,7 @@ export default function DataTable() {
               fileName={"name"}
             >
               {" "}
-              doucument hahah
+              Prestanak ugovora o radu
             </PDFDownloadLink>
           </>
         ) : null}
