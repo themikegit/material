@@ -42,7 +42,7 @@ export default function DataTable() {
 
   useEffect(() => {
     axios
-      .get("http://app.alphateam.co.rs/wp-json/wp/v2/zaposleni/")
+      .get("https://app.alphateam.co.rs/wp-json/wp/v2/zaposleni/")
       .then((res) => {
         const mappedArr = res.data.map((em) => ({
           id: em.id,
